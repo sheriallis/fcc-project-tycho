@@ -1,0 +1,184 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  background: #e0e3d2;
+  font-size: 1rem;
+  font-weight: normal; }
+
+section {
+  padding-top: 2%;
+  font-family: "Open Sans", sans-serif; }
+
+#container {
+  max-width: 1280px;
+  margin: 3% auto;
+  border: 5px solid #e0e3d2; }
+
+#about {
+  background: #ad4232;
+  background-image: url("../img/about-bg.jpg");
+  background-repeat: no-repeat;
+  background-clip: border-box;
+  background-size: cover;
+  padding: 3% 5% 3% 40%;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); }
+
+#sound {
+  background: #e0e3d2;
+  background-image: url("../img/sound-bg.jpg");
+  background-repeat: no-repeat;
+  background-clip: border-box;
+  background-size: cover;
+  color: #323335;
+  padding: 3% 30% 5% 5%; }
+
+#members, #discography {
+  background: #323335;
+  color: #e0e3d2; }
+
+#discography {
+  overflow: hidden; }
+
+#members {
+  background-image: url("../img/tour-bg.jpg");
+  background-repeat: no-repeat;
+  background-clip: border-box;
+  background-size: cover;
+  padding: 3% 5% 6% 30%; }
+
+#covers {
+  background: #d5835b;
+  padding: 3% 1%;
+  overflow: hidden; }
+
+footer {
+  background: #939c6a;
+  padding: 3% 0;
+  text-align: center;
+  color: #e0e3d2;
+  font-size: .8rem;
+  padding: 3% 5%; }
+
+span {
+  color: #555d69; }
+
+iframe {
+  padding-top: 3%; }
+
+h1, #about p {
+  font-weight: normal;
+  color: #e0e3d2; }
+
+h1, h2, h3 {
+  font: "Cabin", sans-serif;
+  font-weight: normal;
+  margin-bottom: 1%; }
+
+h1 {
+  font-size: 5rem;
+  margin-top: 0;
+  margin-bottom: 0; }
+
+h2 {
+  margin-top: 0;
+  font-size: 2.5rem;
+  color: #d5835b;
+  text-transform: uppercase; }
+
+h3 {
+  color: #939c6a; }
+
+button {
+  background: #d5835b;
+  border: 2px solid #323335;
+  margin-top: 3%;
+  padding: .5% 1%;
+  transition: background 1000ms ease-in-out; }
+
+button:hover {
+  background: #e0e3d2; }
+
+a {
+  text-decoration: none; }
+
+a:hover {
+  color: #555d69; }
+
+footer a {
+  color: #323335; }
+
+#about p {
+  font-size: 1.5rem;
+  color: #e0e3d2; }
+
+p:last-of-type {
+  margin-bottom: 0; }
+
+#discography h2 {
+  padding-left: 3%; }
+
+#covers img {
+  width: 14%;
+  padding: 1.2%; }
+
+.album-art img {
+  float: left;
+  width: 14;
+  margin: 0 auto; }
+
+.column {
+  float: left;
+  width: 27%;
+  padding: 0 3% 3% 3%;
+  background: #323335;
+  font-size: 1rem; }
+
+#members li, .column li {
+  list-style: none; }
+
+#members ul, .column ul {
+  padding-left: 0; }
+
+.clearfix {
+  clear: both; }
+
+@media (max-width: 1100px) {
+  #sound {
+    padding: 3% 25% 5% 5%; }
+  #members {
+    background-position: -150px; } }
+
+@media (max-width: 860px) {
+  #sound {
+    padding: 3% 7%;
+    background-position: 0;
+    background-size: cover; } }
+
+@media (max-width: 800px) {
+  #about {
+    background-position: -100; } }
+
+@media (max-width: 600px) {
+  iframe {
+    display: none; }
+  h1 {
+    font-size: 2rem; }
+  h2 {
+    font-size: 1.5rem; }
+  p, h3 {
+    margin-top: 0; }
+  #about p {
+    font-size: 1rem; }
+  .column:nth-of-type(2) {
+    display: none; }
+  .column {
+    width: 40%; }
+  button {
+    margin-bottom: 3%; }
+  #about {
+    background-position: -350;
+    padding-left: 3%; }
+  #members {
+    background-position: -400;
+    padding-left: 3%; }
+  p:last-of-type {
+    display: none; } }

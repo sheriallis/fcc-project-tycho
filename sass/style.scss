@@ -1,0 +1,263 @@
+$light: #e0e3d2;
+$dark: #323335;
+$green: #939c6a;
+$header-bg: #ad4232;
+$orange: #d5835b;
+$span: #555d69;
+$headers-font: 'Cabin', sans-serif;
+$body-font: 'Open Sans', sans-serif;
+$body-bg: rgb(47, 52, 63);
+
+body {
+  font-family: $body-font;
+  background: $light;
+  font-size: 1rem;
+  font-weight: normal;
+}
+
+section {
+  padding-top: 2%;
+  font-family: $body-font;
+}
+
+#container {
+  max-width: 1280px;
+  margin: 3% auto;
+  border: 5px solid $light;
+}
+
+#about {
+  background: $header-bg;
+  background-image: url("../img/about-bg.jpg");
+  background-repeat: no-repeat;
+  background-clip: border-box;
+  background-size: cover;
+  padding: 3% 5% 3% 40%;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+}
+
+#sound {
+  background: $light;
+  background-image: url("../img/sound-bg.jpg");
+  background-repeat: no-repeat;
+  background-clip: border-box;
+  background-size: cover;
+  color: $dark;
+  padding: 3% 30% 5% 5%;
+}
+
+#members, #discography {
+  background: $dark;
+  color: $light;
+}
+
+#discography {
+  overflow: hidden;
+}
+
+#members {
+  background-image: url("../img/tour-bg.jpg");
+  background-repeat: no-repeat;
+  background-clip: border-box;
+  background-size: cover;
+  padding: 3% 5% 6% 30%;
+}
+
+#covers {
+  background: $orange;
+  padding: 3% 1%;
+  overflow: hidden;
+}
+
+footer{
+  background: $green;
+  padding: 3% 0;
+  text-align: center;
+  color: $light;
+  font-size: .8rem;
+  padding: 3% 5%;
+}
+
+
+span {
+  color: $span;
+}
+
+iframe {
+  padding-top: 3%;
+}
+
+h1, #about p {
+  font-weight: normal;
+  color: $light;
+}
+
+h1, h2, h3 {
+  font: $headers-font;
+  font-weight: normal;
+  margin-bottom: 1%;
+}
+
+h1 {
+  font-size: 5rem;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+h2 {
+  margin-top: 0;
+  font-size: 2.5rem;
+  color: $orange;
+  text-transform: uppercase;
+}
+
+h3 {
+  color: $green;
+}
+
+button {
+  background: $orange;
+  border: 2px solid $dark;
+  margin-top: 3%;
+  padding: .5% 1%;
+  transition: background 1000ms ease-in-out;
+}
+
+button:hover {
+  background: $light;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: $span;
+}
+
+footer a {
+  color: $dark;
+}
+
+#about p {
+  font-size: 1.5rem;
+  color: $light;
+}
+
+
+p:last-of-type {
+  margin-bottom: 0;
+}
+
+#discography h2 {
+  padding-left: 3%;
+}
+
+#covers img {
+  width: 14%;
+  padding: 1.2%;
+}
+
+.album-art img {
+  float: left;
+  width: 14;
+  margin: 0 auto;
+}
+
+.column {
+  float: left;
+  width: 27%;
+  padding: 0 3% 3% 3%;
+  background: $dark;
+  font-size: 1rem;
+}
+
+#members li, .column li {
+  list-style: none;
+}
+
+#members ul, .column ul {
+  padding-left: 0;
+}
+
+.clearfix {
+  clear: both;
+}
+
+// media queries
+
+
+@media (max-width: 1100px){
+  #sound {
+    padding: 3% 25% 5% 5%;
+  }
+
+  #members {
+    background-position: -150px;
+  }
+
+}
+
+@media (max-width: 860px){
+  #sound {
+    padding: 3% 7%;
+    background-position: 0  ;
+    background-size: cover;
+  }
+
+}
+
+@media (max-width: 800px) {
+  #about {
+    background-position: -100;
+  }
+}
+
+@media (max-width: 600px) {
+  iframe {
+    display: none;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  p, h3 {
+    margin-top: 0;
+  }
+
+  #about p {
+    font-size: 1rem;
+  }
+
+  .column:nth-of-type(2){
+    display: none;
+  }
+
+  .column {
+    width: 40%;
+  }
+
+  button {
+    margin-bottom: 3%;
+  }
+
+  #about {
+    background-position: -350;
+    padding-left: 3%;
+  }
+
+  #members {
+    background-position: -400;
+    padding-left: 3%;
+  }
+
+  p:last-of-type {
+    display: none;
+  }
+
+}
