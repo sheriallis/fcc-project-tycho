@@ -120,7 +120,7 @@ button {
   border: 2px solid $dark;
   margin-top: 3%;
   padding: .5% 1%;
-  transition: background 1000ms ease-in-out;
+  transition: background 900ms ease-in-out;
 }
 
 button:hover {
@@ -128,6 +128,7 @@ button:hover {
 }
 
 a {
+  color: $light;
   text-decoration: none;
 }
 

@@ -92,12 +92,13 @@ button {
   border: 2px solid #323335;
   margin-top: 3%;
   padding: .5% 1%;
-  transition: background 1000ms ease-in-out; }
+  transition: background 900ms ease-in-out; }
 
 button:hover {
   background: #e0e3d2; }
 
 a {
+  color: #e0e3d2;
   text-decoration: none; }
 
 a:hover {
